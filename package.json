@@ -1,0 +1,45 @@
+{
+  "name": "react-native-ssl-certificate-checker",
+  "title": "React Native library to check ssl certificate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "typings": "index.d.ts",
+  "scripts": {
+    "prettier:fix": "prettier --config ./.prettierrc.js --write --check \"src/**/*.ts\" ",
+    "lint": "tslint -p tsconfig.json 'src/**/*.tsx' 'src/**/*.ts'",
+    "tsc": "tsc"
+  },
+  "keywords": [
+    "react-native",
+    "react native",
+    "hybrid",
+    "mobile",
+    "ios",
+    "android",
+    "ssl",
+    "certificate"
+  ],
+  "author": "Imran Mentese",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "bugs": {
+    "url": "https://github.com/imranMnts/react-native-ssl-certificate-checker/issues"
+  },
+  "homepage": "https://github.com/imranMnts/react-native-ssl-certificate-checker#readme",
+  "peerDependencies": {
+    "react-native": "^0.41.2"
+  },
+  "devDependencies": {
+    "@babel/preset-typescript": "^7.8.3",
+    "@types/react-native": "^0.63.7",
+    "react": "16.8.3",
+    "react-dom": "^16.13.0",
+    "react-native": "0.59.10",
+    "tslint": "^6.0.0",
+    "tslint-config-airbnb-base": "^0.3.0",
+    "tslint-config-prettier": "^1.18.0",
+    "tslint-react": "^4.2.0",
+    "typescript": "^3.7.3"
+  }
+}
